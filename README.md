@@ -70,26 +70,6 @@ The following techniques are used throughout the notebook:
 
 ---
 
-## Structure of the Repository 
-
-olivetti-unsupervised-learning/
-├── README.md
-├── requirements.txt
-├── notebooks/
-│   └── 01_olivetti_unsupervised_learning.ipynb
-├── src/
-│   ├── utils.py
-│   ├── visualization.py
-│   └── metrics.py
-├── figures/
-│   ├── kmeans_clusters.png
-│   ├── silhouette_elbow.png
-│   ├── gmm_generated_faces.png
-│   └── anomaly_examples.png
-└── .gitignore
-
----
-
 ## Key Results
 
 - k-means clustering groups faces by visual similarity (pose, lighting, expression), not by identity
